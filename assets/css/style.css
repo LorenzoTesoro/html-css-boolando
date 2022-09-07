@@ -1,0 +1,29 @@
+/* #region common rules */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --eco: #008000;
+    --discount: #FF0000;
+    --white: #E8E0D9;
+    --dark: #1A1A1A;
+    --brand:#FF6900;
+    --text-color:#FFF9E8;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+}
+.row{
+    display:flex;
+}
+
+/* #endregion common rules */
+
+/* #region utility */
+
+/* #endregion utility */
