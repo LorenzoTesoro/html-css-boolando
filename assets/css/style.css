@@ -63,6 +63,12 @@ header .row{
 header .icons{
     text-align: right;
 }
+header .col-4 span{
+    margin-right: 0.25rem;
+}
+header .col-4.icons i{
+    margin-right: 0.25rem;
+}
 /* #endregion header */
 
 /* #region main */
@@ -124,3 +130,37 @@ main .row{
     bottom:4rem
 }
 /* #endregion main */
+
+
+/* #region footer */
+footer{
+    margin-top:3.7rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color: var(--dark);
+    color: var(--text-color);
+}
+
+footer h3{
+    padding-bottom: 0.5rem;
+}
+
+footer span{
+    margin-right: 1rem;
+    font-size: 0.75rem;
+}
+
+footer .row{
+    justify-content: space-between;
+}
+
+.where_to_find{
+    font-size: 0.75rem;
+}
+
+.contacts i{
+    margin-top: 0.50rem;
+    margin-right: 0.25rem;
+    font-size: 1rem;
+}
+/* #endregion footer */
