@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: ;
+}
 :root{
     --eco: #008000;
     --discount: #FF0000;
@@ -45,6 +48,10 @@ header{
     padding-top:1rem;
     padding-bottom:1rem;
 }
+header img{
+    width:10rem;
+    text-align: center;
+}
 
 header .row{
     justify-content: space-between;
@@ -83,7 +90,12 @@ main .row{
     bottom: 4rem;
 }
 
-.hover_img{
-display:none;
+.heart_icon{
+    background-color: white;
+    font-size:2rem;
+    position:absolute;
+    right:0;
+    top:0.5rem;
 }
+
 /* #endregion main */
