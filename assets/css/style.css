@@ -81,7 +81,7 @@ main .row{
 .discount, .sustenibility{
     padding: 0.25rem 0.50rem;
     text-align:center;
-    color:var(--white);
+    color:var(--text-color);
 }
 
 .discount{
@@ -129,6 +129,18 @@ main .row{
     left:0;
     bottom:4rem
 }
+
+.hover_img{
+    display: none;
+}
+.card:hover .static_img{
+    display:none;
+}
+
+.card:hover .hover_img{
+    display: block;
+} 
+
 /* #endregion main */
 
 
