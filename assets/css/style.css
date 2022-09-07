@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: ;
+    font-family: 'Inter', sans-serif;
 }
 :root{
     --eco: #008000;
@@ -48,9 +48,11 @@ header{
     padding-top:1rem;
     padding-bottom:1rem;
 }
+header .logo{
+    text-align: center;
+}
 header img{
     width:10rem;
-    text-align: center;
 }
 
 header .row{
@@ -92,10 +94,33 @@ main .row{
 
 .heart_icon{
     background-color: white;
+    height:2.5rem;
+    width: 2.5rem;
     font-size:2rem;
+    text-align: center;
     position:absolute;
     right:0;
     top:0.5rem;
 }
 
+.new_price{
+    color:var(--discount);
+}
+.old_price{
+    text-decoration-line: line-through;
+}
+
+.hover_img{
+    display: none;
+}
+
+.hover_img{
+    display: none;
+}
+
+.last_card{
+    position: absolute;
+    left:0;
+    bottom:4rem
+}
 /* #endregion main */
