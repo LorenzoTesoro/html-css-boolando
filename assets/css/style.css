@@ -131,7 +131,7 @@ main .row{
 }
 
 .card:hover .hover_img{
-    display: block;
+    display: inline-block;
 } 
 
 /* #endregion main */
