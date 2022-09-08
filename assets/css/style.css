@@ -19,6 +19,7 @@ body{
 
 .container{
     width:80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .row{
@@ -114,14 +115,6 @@ main .row{
 }
 .old_price{
     text-decoration-line: line-through;
-}
-
-.hover_img{
-    display: none;
-}
-
-.hover_img{
-    display: none;
 }
 
 .last_card{
